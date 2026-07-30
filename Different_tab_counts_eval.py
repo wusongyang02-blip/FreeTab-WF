@@ -189,7 +189,7 @@ def evaluate_one(model, loader, device, thr):
 
 
 def run():
-    set_seed(42)
+    set_seed(127)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Device:", device)
 
