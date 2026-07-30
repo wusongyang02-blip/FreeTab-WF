@@ -272,7 +272,7 @@ def run():
     os.makedirs(save_dir, exist_ok=True)
 
     # ====== Setup ======
-    seed = 42
+    seed = 127
     set_seed(seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Device:", device)
