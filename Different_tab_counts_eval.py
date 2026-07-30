@@ -201,10 +201,10 @@ def run():
     num_workers = 0
 
     test_paths = {
-        "2tab_test": "./Datasets/Chrome_2tab_test.npz",    # or Tor_2tab_test.npz
-        "3tab_test": "./Datasets/Chrome_3tab_test.npz",    # or Tor_3tab_test.npz
-        "4tab_test": "./Datasets/Chrome_4tab_test.npz",    # or Tor_4tab_test.npz
-        "5tab_test": "./Datasets/Chrome_5tab_test.npz",    # or Tor_5tab_test.npz
+        "2tab_test": "./Datasets/Chrome/Chrome_2tab_test.npz",    # or Tor/Tor_2tab_test.npz (Drift/Drift_2tab.npz)
+        "3tab_test": "./Datasets/Chrome/Chrome_3tab_test.npz",    # or Tor/Tor_3tab_test.npz (Drift/Drift_3tab.npz)
+        "4tab_test": "./Datasets/Chrome/Chrome_4tab_test.npz",    # or Tor/Tor_4tab_test.npz (Drift/Drift_4tab.npz)
+        "5tab_test": "./Datasets/Chrome/Chrome_5tab_test.npz",    # or Tor/Tor_5tab_test.npz (Drift/Drift_5tab.npz)
     }
 
     # ---------- Load checkpoint ----------
