@@ -14,7 +14,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 
-from FreeTab-WF import FreeTab_WF, FreeTabWFConfig
+from FreeTab_WF import FreeTab_WF, FreeTabWFConfig
 from Online_Random_Composition import Online_Random_Composition
 
 
