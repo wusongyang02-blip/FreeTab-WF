@@ -1,7 +1,7 @@
 """
 Training and evaluation script for FreeTab-WF.
 This script uses Online_Random_Composition for training data generation
-and the FreeTab_WF model for multi-label website fingerprinting.
+and the FreeTab-WF model for multi-label website fingerprinting.
 """
 
 import os
@@ -14,8 +14,8 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 
-from FreeTab_WF import FreeTab_WF, FreeTabWFConfig
-from OnlineRandomComposition import Online_Random_Composition
+from FreeTab-WF import FreeTab_WF, FreeTabWFConfig
+from Online_Random_Composition import Online_Random_Composition
 
 
 # ================================
