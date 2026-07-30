@@ -303,7 +303,7 @@ class OpenWorldMixedDataset(Dataset):
         open_world_dataset: OpenWorldDataset,
         monitored_ratio: float = 0.5,
         total_samples: int = None,
-        seed: int = 42,
+        seed: int = 127,
     ):
         self.monitored = monitored_dataset
         self.open_world = open_world_dataset
@@ -478,7 +478,7 @@ def run():
     os.makedirs(save_dir, exist_ok=True)
 
     # ---------- Hyperparameters ----------
-    seed = 42
+    seed = 127
     set_seed(seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("device:", device)
