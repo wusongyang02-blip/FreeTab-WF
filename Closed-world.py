@@ -21,7 +21,7 @@ from OnlineRandomComposition import Online_Random_Composition
 # ================================
 # Utilities
 # ================================
-def set_seed(seed: int = 42):
+def set_seed(seed: int = 127):
     """Set random seeds for reproducibility."""
     random.seed(seed)
     np.random.seed(seed)
