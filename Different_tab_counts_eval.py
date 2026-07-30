@@ -1,6 +1,6 @@
 """
 Evaluation script for FreeTab-WF on multi-tab closed-world test sets.
-Evaluates per-tab-count performance (2-tab, 3-tab, 4-tab, 5-tab) with P@K and MAP@K metrics.
+Evaluates per-tab-count performance (2-tab, 3-tab, 4-tab, 5-tab) with P@K and MAP@K.
 """
 
 import os
