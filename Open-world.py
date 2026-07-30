@@ -14,8 +14,8 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import roc_auc_score
 
-from FreeTab_WF import FreeTab_WF, FreeTabWFConfig
-from OnlineRandomComposition import Online_Random_Composition
+from FreeTab-WF import FreeTab_WF, FreeTabWFConfig
+from Online_Random_Composition import Online_Random_Composition
 
 
 # ================================
