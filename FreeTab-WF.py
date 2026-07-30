@@ -195,22 +195,17 @@ class FreeTab_WF(nn.Module):
             x = x.unsqueeze(1)
 
         raw_mask = make_padding_mask(x)
-
+        
         # CNN encoding
         feat = self.encoder(x)
         enc_mask = self._downsample_mask_nearest(raw_mask, feat.shape[-1])
-
         # Window-based summarization
         h_win, m_win = self._make_windows(feat, enc_mask)
-
         # Project to Transformer dimension
         h_win = self.win_proj(h_win)
-
         # Global aggregation via Transformer [CLS] token
         bag, attn = self.transformer_pool(h_win, m_win)
-
         # Multi-label classification
         main_logits = self.cls_main(bag)
-
         aux = {"attention_pool": attn, "window_mask": m_win}
         return main_logits, aux
