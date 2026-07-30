@@ -11,7 +11,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-from FreeTab_WF import FreeTab_WF, FreeTabWFConfig
+from FreeTab-WF import FreeTab_WF, FreeTabWFConfig
 
 
 def set_seed(seed=42):
