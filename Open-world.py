@@ -468,11 +468,11 @@ def benchmark_inference(model: nn.Module, loader: DataLoader, device, warmup=30,
 # ================================
 def run():
     # ---------- Data paths (adjust to your own paths) ----------
-    train_home_npz = "./Datasets/Chrome_Homepage_Single.npz"
-    sub_with_home_npz = "./Datasets/Chrome_Subpage_Single.npz"
-    val_npz = "./Datasets/Chrome_Val.npz"
-    test_npz = "./Datasets/Chrome_Test.npz"
-    open_world_npz = "./Datasets/Open_world.npz"
+    train_home_npz = "./Datasets/Chrome/Chrome_Homepage_Single.npz"
+    sub_with_home_npz = "./Datasets/Chrome/Chrome_Subpage_Single.npz"
+    val_npz = "./Datasets/Chrome/Chrome_Val.npz"
+    test_npz = "./Datasets/Chrome/Chrome_Test.npz"
+    open_world_npz = "./Datasets/Chrome/Open_world.npz"
 
     save_dir = "./runs_FreeTab_openworld"
     os.makedirs(save_dir, exist_ok=True)
