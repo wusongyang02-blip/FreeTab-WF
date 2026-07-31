@@ -1,4 +1,4 @@
-# Source code and datasets for our paper "FreeTab-WF: Multi-Tab Website Fingerprinting without Real Concurrent Training Traffic".
+# Source code and datasets for the paper "FreeTab-WF: Multi-Tab Website Fingerprinting without Real Concurrent Training Traffic".
 The usage of this model's code is as follows, and the dataset can be obtained via [the shared link](https://drive.google.com/file/d/1hhuG6Cjzwz9hKF2w0DFjxWbdNSGCKURO/view?usp=sharing) in Google Drive Cloud.
 
 ## Basic Environment:
