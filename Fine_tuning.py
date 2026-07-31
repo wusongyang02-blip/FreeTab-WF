@@ -194,7 +194,7 @@ def run_finetune_planA():
     train_npz = "./Datasets/Chrome/Fine_tuning_Train.npz"
     test_2tab = "./Datasets/Chrome/Fine_tuning_2tab_Test.npz"
     test_3tab = "./Datasets/Chrome/Fine_tuning_3tab_Test.npz"
-    save_dir = "./runs_finetune_planA"
+    save_dir = "./runs_FreeTabWF_finetuning"
     os.makedirs(save_dir, exist_ok=True)
 
     # ---------- Hyperparameters ----------
