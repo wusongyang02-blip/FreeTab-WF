@@ -1,4 +1,4 @@
-# Source code and datasets for the paper "FreeTab-WF: Scaling Multi-Tab Website Fingerprinting, One Tab at a Time".
+# Source code and datasets for the paper "FreeTab-WF: Scaling Website Fingerprinting from Single-Tab to Multi-Tab".
 The usage of this model's code is as follows, and the dataset can be obtained via [the shared link](https://drive.google.com/file/d/1hhuG6Cjzwz9hKF2w0DFjxWbdNSGCKURO/view?usp=sharing) in Google Drive Cloud.
 
 ## Basic Environment:
