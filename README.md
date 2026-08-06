@@ -21,7 +21,7 @@ We collect 100 traffic samples for the homepage of each monitored website, and 1
 
 **Multi-Tab Datasets:**
 
-We randomly sample website combinations from the monitored set. As a result, our dataset covers diverse browsing patterns, including traces composed entirely of homepages, entirely of subpages, or mixtures of both. A browsing sequence may also visit both the homepage and a subpage of the same website within a single session. For instance, a browsing sequence such as **"Homepage A → Homepage B → Subpage B1 → Subpage C5 → Subpage A6"** contains 5 webpage visits, yet corresponds to only 3 distinct websites (A, B, and C). Such a trace is treated as a 3-tab sample under our labeling scheme. This design significantly enriches the compositional diversity of our dataset and better reflects real-world user browsing behavior.
+We randomly sample website combinations from the monitored set. As a result, our dataset covers diverse browsing patterns, including traces composed entirely of homepages, entirely of subpages, or mixtures of both. A browsing sequence may also visit both the homepage and a subpage of the same website within a single session. For instance, a browsing sequence such as **"Homepage A → Subpage C5 → Homepage B → Subpage B1 → Subpage A6"** contains 5 webpage visits, yet corresponds to only 3 distinct websites (A, B, and C). Such a trace is treated as a 3-tab sample under our labeling scheme. This design significantly enriches the compositional diversity of our dataset and better reflects real-world user browsing behavior.
 
 **Open-World Datasets:**
 
